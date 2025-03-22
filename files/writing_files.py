@@ -54,7 +54,7 @@ except FileExistsError:
 ### .csv files
 import csv
 
-employees = [["Name", "Age", "Job"], ["Žiga", "Mia", "Pika"], ["Močen", "Lepa", "Pridna"]]
+employees = [["Name", "Age", "Job"], ["Žiga", 21, "Močen"], ["Mia", 22, "Lepa"], ["Pika", 6, "Prindna"]]
 file_path = "files/output.csv"
 
 try:
